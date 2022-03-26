@@ -1,0 +1,45 @@
+.rail {
+    background-color: red;
+    width: 150px;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+
+    .rail-segment {
+        width: 100%;
+        background-color: blue;
+        position: relative;
+
+        .hor-stripes {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+
+            hr {
+                flex-basis: 100%;
+                height: 10px;
+                width: 100%;
+                background: black;
+                border: none;
+            }
+        }
+
+        .ver-stripe {
+            position: absolute;
+            height: 100%;
+            width: 10px;
+            height: 100%;
+            background: rgb(0, 255, 0);
+            border: none;
+        }
+    }
+}
