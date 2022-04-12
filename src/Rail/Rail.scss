@@ -1,5 +1,5 @@
 .rail {
-    background-color: red;
+    background: none;
     width: 150px;
     height: 600px;
     display: flex;
@@ -10,14 +10,18 @@
     margin: 0;
     padding: 0;
 
+    $line-color: black;
+    $line-thickness: 10px;
 
-    .rail-segment {
+    .rail-segment-straight {
         width: 100%;
-        background-color: blue;
+        background: none;
         position: relative;
 
         .hor-stripes {
-            width: 100%;
+            width: calc(100% - ($line-thickness * 2));
+            left: $line-thickness;
+            position: absolute;
             height: 100%;
             display: flex;
             flex-wrap: wrap;
@@ -26,20 +30,27 @@
 
             hr {
                 flex-basis: 100%;
-                height: 10px;
+                height: $line-thickness;
                 width: 100%;
-                background: black;
+                background-color: $line-color;
                 border: none;
+                border-left: 2px solid rgb(109, 108, 108);
+                border-right: 2px solid rgb(109, 108, 108);
+                z-index: 1;
             }
         }
 
         .ver-stripe {
             position: absolute;
-            height: 100%;
-            width: 10px;
-            height: 100%;
-            background: rgb(0, 255, 0);
+            height: calc(100% + ($line-thickness * 2));
+            width: $line-thickness;
+            background-color: $line-color;
             border: none;
+            top: calc($line-thickness * -1);
+        }
+
+        .ver-stripe:last-of-type {
+            left: calc(100% - $line-thickness);
         }
     }
 }
