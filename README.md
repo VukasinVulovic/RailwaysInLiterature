@@ -13,4 +13,4 @@
 ### Website Authors:
 - Vukašin Vulović
 - Adrian Kraljević
-- Petar Martinić
+- Petar Martinović
