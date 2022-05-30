@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/RailwaysInLiterature/static/css/main.d989553c.css",
+    "main.js": "/RailwaysInLiterature/static/js/main.49bb7b45.js",
+    "static/js/787.c2f40d9b.chunk.js": "/RailwaysInLiterature/static/js/787.c2f40d9b.chunk.js",
+    "static/media/train.png": "/RailwaysInLiterature/static/media/train.bc7d067336351367176c.png",
+    "static/media/OldEnglishTextMT2.ttf": "/RailwaysInLiterature/static/media/OldEnglishTextMT2.fbb218b03aef016cd9a0.ttf",
+    "index.html": "/RailwaysInLiterature/index.html",
+    "main.d989553c.css.map": "/RailwaysInLiterature/static/css/main.d989553c.css.map",
+    "main.49bb7b45.js.map": "/RailwaysInLiterature/static/js/main.49bb7b45.js.map",
+    "787.c2f40d9b.chunk.js.map": "/RailwaysInLiterature/static/js/787.c2f40d9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d989553c.css",
+    "static/js/main.49bb7b45.js"
+  ]
+}
