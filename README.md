@@ -1,8 +1,8 @@
 # Railways In Literature
 ## Ideas
-- [] Create book / timeline
-- [] Create Rail segments
-- [] Create Train
+- [x] Create book / timeline
+- [x] Create Rail segments
+- [x] Create Train
 
 *This is a school project.*
 
@@ -13,3 +13,4 @@
 ### Website Authors:
 - Vukašin Vulović
 - Adrian Kraljević
+- Petar Martinić
